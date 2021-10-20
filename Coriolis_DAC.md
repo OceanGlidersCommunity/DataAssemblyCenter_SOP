@@ -17,13 +17,13 @@ If we must decode data:
 If we get already decoded data:
 - We check the format of the netcdf files received. If needed, we produce the profiles files from the EGO/OCEANGLIDERS netcdf file. Note that we can get/produce/disseminate data in real time on a daily basis.
 
-# Data dissemination
+## Data dissemination
 We produce and disseminate two types of netcdf files.
 - The timeseries EGO/OCEANGLIDERS netcdf file (at the moment described here: https://archimer.ifremer.fr/doc/00239/34980/ ). It contains the full dataset of the glider deployment (one file per deployment)·
 
 - The netcdf profile files (one file per profile) when it’s possible. Formats of these files are systematically checked by our format checker (available here : https://www.seanoe.org/data/00344/45538/ )
 
-# data Diffusion
+## data Diffusion
 All decoded and recovered data are available on an ftp space ( ftp://ftp.ifremer.fr/ifremer/glider/v2/ ). We generate index files at the root of this space to facilitate the search for data
 
 An ERDDAP is link the this space (http://www.ifremer.fr/erddap/tabledap/OceanGlidersGDACTrajectories.html). This ERDDAP is used for the map of the https://www.oceangliders.org/ website.
