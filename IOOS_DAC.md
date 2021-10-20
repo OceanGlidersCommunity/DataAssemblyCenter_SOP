@@ -13,9 +13,13 @@ Once registered, the user may submit real-time and/or delayed mode datasets usin
 For data sets that are to be released to the Global Telecommunication System (GTS, real-time data sets only), the data provider should request a WMO id from the DAC support team (glider.dac.support@noaa.gov). 
 WMO ids are unique to a single glider deployed in one of the WMO regions and should only be used for deployment of the same glider in the region for which it is assigned.
 Native telemetered glider data files are parsed to retrieve individual profiles from the time-series data set. The indexed profiles are then written to the NetCDF format according to the specification provided at https://ioos.github.io/ioosngdac/ngdac-netcdf-file-format-version-2.html which attempts to conform to CF, ACDD and IOOS Metadata Profile standards. 
+
 The NetCDF format detailed here stores a single profile time-series that can include any number of time indexed variables with the exception of the following variables:
+
   a.  Calculated water currents and their associated GPS coordinates, all of which are stored as scalar variables containing a single u, v, latitude and longitude according to CF specifications.
+  
   b. A trajectory variable, containing a string or character array, specifying the unique name of the dataset which can also be interpreted as the deployment name.  This string has the following format: glider-YYYYmmddTHHMM (glider name and ISO-8601 formatted deployment start date and time).
+  
   c. Descriptions of the instruments contained in the glider payload are stored as empty scalar variables who attributes convey information about the instrument including instrument type, calibration date(s) and serial number.
 The deployment name (1b) is registered on the IOOS Glider DAC deployment registration page located at https://gliders.ioos.us/providers/. The following information is required during registration:
 - Glider name
