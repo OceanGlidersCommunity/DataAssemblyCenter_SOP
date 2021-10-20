@@ -1,6 +1,6 @@
-Coriolis DAC - Standard Operational practices
+# Coriolis DAC - Standard Operational practices
 
-How to provide glider data to Coriolis ?  (users point of view)
+## How to provide glider data to Coriolis ?  (users point of view)
 To provide glider observations to Coriolis, providers have to push the data to Coriolis ftp server.·        
 ftp eftp.ifremer.fr
 Contact codac@ifremer.fr for user name and password.
