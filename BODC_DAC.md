@@ -11,5 +11,5 @@ BODC are currently developing version 2 of the processing system with key enhanc
 - the introduction of development operations and CI/CD architecture,
 - A move from scheduled tasks to an event driven system to enable rapid processing and delivery of data (minutes),
 - Moving to independent processing of individual deployments to reduce dependencies for robustness and scalability,
--
+
 At the time of writing an early version of version 2 was under test and should enable the timely development needed to meet the evolving data requirements of OceanGliders.
