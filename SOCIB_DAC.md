@@ -21,6 +21,6 @@ SOCIB data files are available through the SOCIB Thredds Data Server. In additio
 SOCIB Netcdf files are produced following international conventions and standards to guarantee interoperability. Additionally, EGO format netcdf files are produced and pushed to the Coriolis ftp so it is aggregated into Coriolis and, in turn, into the Copernicus Marine Service, EMODnet and GTS. 
 In addition, SOCIB, in order to improve the FAIRness of its data assets, is also minting DOIs to data products related to its sustained endurance lines and/or specific scientific projects. The latter implies that some glider related data products are minted with a DOI and are accessible through the SOCIB Data Catalog.
 
-Two main tools enable SOCIB glider workflow : 
+Two main tools enable SOCIB glider workflow: 
 - The SOCIB Glider Toolbox (Troupin et al 2016) enables glider data processing for the real-time and recovery data, generating both netcdfs and figures. It is being used by leading institutions to process their glider data, such as NOAA fisheries (Reiss et al 2021) and DFO-MPO (Cyr - mission report, 2018). 
 - The SOCIB salinity correction toolbox (Allen et al 2020) is also used to perform delay mode calibrations on glider salinity data against ship-based observations from seasonal cruises over the study area. More information on the data flow and glider data management can be found in the SOCIB workflow and strategy description.
