@@ -6,4 +6,4 @@ In this respository we describe the Standard Operating Procedure (SOP) of each d
 - [BODC DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/BODC_DAC.md) (United Kingdom) 
 - [SOCIB DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/SOCIB_DAC.md) (Spain and Mediteranean region) 
 - [MEDS/DFO DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/MEDS-DFO_DAC.md) (Canada) 
-- [Coriolis DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/Coriolis_DAC) (France, Europe and International) 
+- [Coriolis DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/Coriolis_DAC.md) (France, Europe and International) 
