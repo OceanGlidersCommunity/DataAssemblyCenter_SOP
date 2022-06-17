@@ -1,4 +1,4 @@
-# [WIP] DataAssemblyCenter_SOP
+# DataAssemblyCenter_SOP
 In this respository contains the Standard Operating Procedure (SOP) of each data assembly center of the OceanGliders program.
 
 - [IOOS DAC](https://github.com/OceanGlidersCommunity/DataAssemblyCenter_SOP/blob/main/IOOS_DAC.md) (USA) 
